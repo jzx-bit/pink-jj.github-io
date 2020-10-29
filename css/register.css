@@ -1,0 +1,159 @@
+/* 注册页面 */
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* header部分 */
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logoimg {
+    padding-top: 20px;
+}
+
+.registerarea {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.registerarea h3 {
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dddddd;
+}
+
+.registerarea h3 em {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea em a {
+    color: #c81623;
+}
+
+.reg_form {
+    height: 400px;
+    width: 600px;
+    margin: 20px auto;
+    padding-top: 10px;
+}
+
+.reg_form li {
+    margin-bottom: 15px;
+}
+
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.inp {
+    padding-left: 5px;
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.error,
+.success {
+    color: #df3033;
+    margin-left: 10px;
+}
+
+.success_icon {
+    background: url(../img/success.png) no-repeat;
+}
+
+.success {
+    color: #40b83f;
+}
+
+.safe {
+    height: 13px;
+    padding-left: 175px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    color: #fff;
+    padding: 0px 12px;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    margin-top: 25px;
+    margin-left: 113px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.agree a {
+    color: skyblue;
+}
+
+.reg_sub {
+    width: 200px;
+    height: 34px;
+    margin: 30px 0 0 130px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #c81623;
+}
+
+.footer {
+    height: 119px;
+}
+
+.mod_copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.mod_copyright i {
+    margin: 0 14px;
+}
+
+.mod_copyright p {
+    margin-top: 16px;
+}
